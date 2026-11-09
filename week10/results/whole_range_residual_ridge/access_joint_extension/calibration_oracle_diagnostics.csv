@@ -1,0 +1,7 @@
+family,diagnostic,calibration_hit_size_rmse_tb
+daily_base,TCN baseline,37.50825588559996
+daily_base,Oracle actual access + forecast ratio,5.830531566383292
+daily_base,Oracle forecast access + actual ratio,36.25661983544621
+compact_intraday,TCN baseline,40.08519215464975
+compact_intraday,Oracle actual access + forecast ratio,7.124639461710557
+compact_intraday,Oracle forecast access + actual ratio,38.623694616551624

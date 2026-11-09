@@ -1,0 +1,13 @@
+model,variable,test_rmse,persistence_rmse
+"Structured TCN: 14 days, 32 channels",access_count,12030.892559735006,14526.691
+"Structured TCN: 14 days, 32 channels",access_size,31.080000093308268,36.41841
+"Structured TCN: 14 days, 32 channels",hit_count,11505.059361720998,13668.526
+"Structured TCN: 14 days, 32 channels",hit_size,30.833341296515638,35.8518
+"Structured TCN: 14 days, 32 channels",miss_count,1345.9295251607186,1162.6244
+"Structured TCN: 14 days, 32 channels",miss_size,2.079509317291648,0.8524321
+"Structured TCN: 14 days, 64 channels",access_count,11949.43322553026,14526.691
+"Structured TCN: 14 days, 64 channels",access_size,31.14913631763459,36.41841
+"Structured TCN: 14 days, 64 channels",hit_count,11313.615500030894,13668.526
+"Structured TCN: 14 days, 64 channels",hit_size,30.557847599131875,35.8518
+"Structured TCN: 14 days, 64 channels",miss_count,1333.8291363223348,1162.6244
+"Structured TCN: 14 days, 64 channels",miss_size,2.1048098319372315,0.8524321

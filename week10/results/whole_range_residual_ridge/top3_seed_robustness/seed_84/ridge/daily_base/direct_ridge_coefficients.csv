@@ -1,0 +1,8 @@
+feature,coefficient
+predicted_log_access_size,-0.07784234656531644
+predicted_size_ratio_logit,0.013299064250315296
+log_hit_size_lag1,0.026274049530840473
+log_hit_size_lag7,0.04483506342269027
+log_hit_size_ma7,0.07820322166599047
+log_hit_size_ma28,-0.0330118606627046
+hit_size_slope7,-0.014350649467418826

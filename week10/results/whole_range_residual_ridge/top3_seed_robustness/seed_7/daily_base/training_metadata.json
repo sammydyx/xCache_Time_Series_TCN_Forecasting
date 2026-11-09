@@ -1,0 +1,14 @@
+{
+  "signature": "c2421e3f908a84ad0ef5d7fc096a8923b3307cb5719afdc7a82d13b5d58b788d",
+  "best_epoch": 2,
+  "validation_hit_size_rmse": 17.175146817612678,
+  "input_names": [
+    "log1p_access_count",
+    "log1p_access_size",
+    "log1p_hit_count",
+    "log1p_hit_size",
+    "log1p_miss_count",
+    "log1p_miss_size"
+  ],
+  "parameter_count": 113092
+}

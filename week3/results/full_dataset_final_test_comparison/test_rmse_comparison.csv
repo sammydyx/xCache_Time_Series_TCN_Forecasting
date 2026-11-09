@@ -1,0 +1,19 @@
+model,lookback,blocks,variable,test_rmse,persistence_rmse
+"Week 2 reference (3 blocks, 28 days)",28,3,access_count,12320.13703232483,14526.691
+"Week 2 reference (3 blocks, 28 days)",28,3,access_size,31.601305256256534,36.41841
+"Week 2 reference (3 blocks, 28 days)",28,3,hit_count,11601.231309610172,13668.526
+"Week 2 reference (3 blocks, 28 days)",28,3,hit_size,31.012691123283886,35.8518
+"Week 2 reference (3 blocks, 28 days)",28,3,miss_count,1931.6578454844926,1162.6244
+"Week 2 reference (3 blocks, 28 days)",28,3,miss_size,2.8069733931454155,0.8524321
+Five-block candidate (28 days),28,5,access_count,13450.049915894651,14526.691
+Five-block candidate (28 days),28,5,access_size,31.08935333463403,36.41841
+Five-block candidate (28 days),28,5,hit_count,12318.95004430982,13668.526
+Five-block candidate (28 days),28,5,hit_size,30.530831460285068,35.8518
+Five-block candidate (28 days),28,5,miss_count,1649.8812032572425,1162.6244
+Five-block candidate (28 days),28,5,miss_size,2.1590652645274697,0.8524321
+Five-block candidate (14 days),14,5,access_count,12030.892559735006,14526.691
+Five-block candidate (14 days),14,5,access_size,31.080000093308268,36.41841
+Five-block candidate (14 days),14,5,hit_count,11505.059361720998,13668.526
+Five-block candidate (14 days),14,5,hit_size,30.833341296515634,35.8518
+Five-block candidate (14 days),14,5,miss_count,1345.9295251607186,1162.6244
+Five-block candidate (14 days),14,5,miss_size,2.079509317291648,0.8524321

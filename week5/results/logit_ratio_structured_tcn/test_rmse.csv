@@ -1,0 +1,7 @@
+,Logit-ratio Structured TCN RMSE,Persistence RMSE,Unit
+access_count,15967.21989851883,19116.797,requests
+access_size,41.40656577999505,47.84462,TB
+hit_count,14972.802593439412,17914.582,requests
+hit_size,40.69697407154083,47.000496,TB
+miss_count,1400.9834039172795,1482.8988,requests
+miss_size,0.9503014660472298,1.1561543,TB

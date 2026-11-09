@@ -1,0 +1,43 @@
+model,lookback,blocks,variable,test_rmse,persistence_rmse,family,max_access_identity_error
+"Week 2 reference (3 blocks, 28 days)",28,3.0,access_count,12320.13703232483,14526.691,structured,0.0
+"Week 2 reference (3 blocks, 28 days)",28,3.0,access_size,31.601305256256534,36.41841,structured,0.0
+"Week 2 reference (3 blocks, 28 days)",28,3.0,hit_count,11601.231309610172,13668.526,structured,0.0
+"Week 2 reference (3 blocks, 28 days)",28,3.0,hit_size,31.012691123283886,35.8518,structured,0.0
+"Week 2 reference (3 blocks, 28 days)",28,3.0,miss_count,1931.6578454844926,1162.6244,structured,0.0
+"Week 2 reference (3 blocks, 28 days)",28,3.0,miss_size,2.8069733931454155,0.8524321,structured,0.0
+Five-block candidate (28 days),28,5.0,access_count,13450.049915894651,14526.691,structured,0.0
+Five-block candidate (28 days),28,5.0,access_size,31.08935333463403,36.41841,structured,0.0
+Five-block candidate (28 days),28,5.0,hit_count,12318.95004430982,13668.526,structured,0.0
+Five-block candidate (28 days),28,5.0,hit_size,30.530831460285068,35.8518,structured,0.0
+Five-block candidate (28 days),28,5.0,miss_count,1649.8812032572425,1162.6244,structured,0.0
+Five-block candidate (28 days),28,5.0,miss_size,2.1590652645274697,0.8524321,structured,0.0
+Five-block candidate (14 days),14,5.0,access_count,12030.892559735006,14526.691,structured,0.0
+Five-block candidate (14 days),14,5.0,access_size,31.080000093308268,36.41841,structured,0.0
+Five-block candidate (14 days),14,5.0,hit_count,11505.059361720998,13668.526,structured,0.0
+Five-block candidate (14 days),14,5.0,hit_size,30.833341296515634,35.8518,structured,0.0
+Five-block candidate (14 days),14,5.0,miss_count,1345.9295251607186,1162.6244,structured,0.0
+Five-block candidate (14 days),14,5.0,miss_size,2.079509317291648,0.8524321,structured,0.0
+"Week 2 Direct reference (3 blocks, 28 days)",28,3.0,access_count,13854.922122126049,14526.691,direct,18370.23414712193
+"Week 2 Direct reference (3 blocks, 28 days)",28,3.0,access_size,32.42027981482745,36.41841,direct,18370.23414712193
+"Week 2 Direct reference (3 blocks, 28 days)",28,3.0,hit_count,11780.480226977435,13668.526,direct,18370.23414712193
+"Week 2 Direct reference (3 blocks, 28 days)",28,3.0,hit_size,30.540471831854703,35.8518,direct,18370.23414712193
+"Week 2 Direct reference (3 blocks, 28 days)",28,3.0,miss_count,2177.271850134557,1162.6244,direct,18370.23414712193
+"Week 2 Direct reference (3 blocks, 28 days)",28,3.0,miss_size,2.9431780608320883,0.8524321,direct,18370.23414712193
+Five-block Direct candidate (98 days),98,5.0,access_count,13010.631734942546,14526.691,direct,12659.444106783845
+Five-block Direct candidate (98 days),98,5.0,access_size,31.123035953309568,36.41841,direct,12659.444106783845
+Five-block Direct candidate (98 days),98,5.0,hit_count,12019.785350087015,13668.526,direct,12659.444106783845
+Five-block Direct candidate (98 days),98,5.0,hit_size,29.980116622241464,35.8518,direct,12659.444106783845
+Five-block Direct candidate (98 days),98,5.0,miss_count,2709.4377165383758,1162.6244,direct,12659.444106783845
+Five-block Direct candidate (98 days),98,5.0,miss_size,2.398465830240822,0.8524321,direct,12659.444106783845
+Five-block Direct candidate (105 days),105,5.0,access_count,12926.808723340397,14526.691,direct,11986.138827978995
+Five-block Direct candidate (105 days),105,5.0,access_size,31.088984681225877,36.41841,direct,11986.138827978995
+Five-block Direct candidate (105 days),105,5.0,hit_count,12039.386456319748,13668.526,direct,11986.138827978995
+Five-block Direct candidate (105 days),105,5.0,hit_size,29.751435904852325,35.8518,direct,11986.138827978995
+Five-block Direct candidate (105 days),105,5.0,miss_count,2995.801333051077,1162.6244,direct,11986.138827978995
+Five-block Direct candidate (105 days),105,5.0,miss_size,3.6109133811742105,0.8524321,direct,11986.138827978995
+"LSTM baseline (128 units, 28 days)",28,,access_count,12471.356332874824,14526.691,lstm,2188.5986223286964
+"LSTM baseline (128 units, 28 days)",28,,access_size,30.83161822014413,36.41841,lstm,2188.5986223286964
+"LSTM baseline (128 units, 28 days)",28,,hit_count,11430.711882148478,13668.526,lstm,2188.5986223286964
+"LSTM baseline (128 units, 28 days)",28,,hit_size,30.27614181259557,35.8518,lstm,2188.5986223286964
+"LSTM baseline (128 units, 28 days)",28,,miss_count,2185.5639701834352,1162.6244,lstm,2188.5986223286964
+"LSTM baseline (128 units, 28 days)",28,,miss_size,2.357452656753616,0.8524321,lstm,2188.5986223286964

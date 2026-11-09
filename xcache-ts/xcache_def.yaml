@@ -1,0 +1,31 @@
+# XCache definitions. Read in with BaseLoader for all strings
+# 5/22/2024
+
+region: socal   # ["socal", "chic", "bost"]
+outmode: hourly  # ["daily", "hourly"]
+
+outdir: './pickled_data'  # data output folder
+plotdir: 'plots'  # plots output folder
+
+#################################################
+# Do NOT change below
+#################################################
+socal:  ## SoCal Cache
+    from_yy: 20   # SoCal start year in yy
+    from_mm: 06   # SoCal start month in mm
+    to_yy: 24     # SoCal end year in yy
+    to_mm: 03     # SoCal end month in mm
+
+chic:  ## Chicago Cache
+    from_yy: 22   # Chicago start year in yy
+    from_mm: 10   # Chicago start month in mm
+    to_yy: 24     # Chicago end year in yy
+    to_mm: 03     # Chicago end month in mm
+
+bost:  ## Boston Cache
+    from_yy: 23   # Boston start year in yy
+    from_mm: 08   # Boston start month in mm
+    to_yy: 24     # Boston end year in yy
+    to_mm: 03     # Boston end month in mm
+
+

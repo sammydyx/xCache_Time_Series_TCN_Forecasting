@@ -1,0 +1,20 @@
+[
+  {
+    "family": "daily_base",
+    "method": "access",
+    "alpha_access": 100.0,
+    "alpha_ratio": null,
+    "access_enabled": true,
+    "ratio_enabled": false,
+    "calibration_cv_hit_size_rmse": 40.795406355104184
+  },
+  {
+    "family": "daily_base",
+    "method": "joint",
+    "alpha_access": 100.0,
+    "alpha_ratio": 100.0,
+    "access_enabled": true,
+    "ratio_enabled": true,
+    "calibration_cv_hit_size_rmse": 39.789809645342814
+  }
+]

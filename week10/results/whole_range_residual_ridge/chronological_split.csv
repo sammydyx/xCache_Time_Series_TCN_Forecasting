@@ -1,0 +1,5 @@
+subset,first_day,last_day,raw_days,eligible_targets
+train,2020-05-31,2022-09-17,840,811
+validation,2022-09-18,2023-02-04,140,140
+calibration,2023-02-05,2023-09-02,210,210
+test,2023-09-03,2024-03-31,211,211

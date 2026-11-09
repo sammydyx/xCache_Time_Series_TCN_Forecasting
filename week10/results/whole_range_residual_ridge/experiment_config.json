@@ -1,0 +1,19 @@
+{
+  "lookback": 28,
+  "seed": 42,
+  "channels": [
+    64,
+    64,
+    64,
+    64,
+    64
+  ],
+  "kernel_size": 3,
+  "dropout": 0.1,
+  "max_epochs": 60,
+  "patience": 10,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "ratio_epsilon": 0.0001,
+  "primary_metric": "hit_size_rmse_tb"
+}

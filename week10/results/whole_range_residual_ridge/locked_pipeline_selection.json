@@ -1,0 +1,6 @@
+{
+  "family": "daily_base",
+  "correction": "direct",
+  "criterion": "TCN validation hit_size RMSE, then calibration CV corrected hit_size RMSE",
+  "test_used_for_selection": false
+}

@@ -1,0 +1,2 @@
+target_date,access_error,hit_error,miss_error,error_identity_residual,opposite_sign,absolute_miss_error,access_count_actual,access_count_predicted,hit_count_actual,hit_count_predicted,miss_count_actual,miss_count_predicted
+2024-02-04,-388.8251228250847,97.41245014422202,-486.2375729693067,0.0,True,486.2375729693067,14491.0,14102.174877174915,12304.0,12401.412450144222,2187.0,1700.7624270306933

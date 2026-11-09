@@ -1,0 +1,2 @@
+model,seed,test_days,max_size_identity_error,max_count_identity_error,is_candidate,family,access_count_rmse,access_size_rmse,hit_count_rmse,hit_size_rmse,peak_recall,peak_precision,peak_days,spike_recall,spike_precision,spike_days,miss_count_rmse,miss_size_rmse
+Persistence,-1,211,2.220446049250313e-14,0.0,False,baseline,14526.692743089623,36.418413517783414,13668.524459519174,35.8518004149405,0.5657894736842105,0.5657894736842105,76,0.0,0.0,56,1162.6244478055116,0.8524320348521448

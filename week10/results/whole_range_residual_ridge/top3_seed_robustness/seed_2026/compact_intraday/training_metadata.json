@@ -1,0 +1,20 @@
+{
+  "signature": "03c7b2800177935426325ccbf24c7721c83a876a3725181c964b5ab634e43573",
+  "best_epoch": 15,
+  "validation_hit_size_rmse": 17.482021889256277,
+  "input_names": [
+    "log1p_access_count",
+    "log1p_access_size",
+    "log1p_hit_count",
+    "log1p_hit_size",
+    "log1p_miss_count",
+    "log1p_miss_size",
+    "access_size_high_over_mean",
+    "access_size_low_over_mean",
+    "access_size_range_over_mean",
+    "hit_size_high_over_mean",
+    "hit_size_low_over_mean",
+    "hit_size_range_over_mean"
+  ],
+  "parameter_count": 114628
+}

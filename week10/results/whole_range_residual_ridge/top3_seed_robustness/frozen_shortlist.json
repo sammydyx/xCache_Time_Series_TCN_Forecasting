@@ -1,0 +1,25 @@
+{
+  "selected_by": "seed-42 reused-test hit_size RMSE",
+  "exploratory": true,
+  "seeds": [
+    42,
+    7,
+    21,
+    84,
+    2026
+  ],
+  "candidates": [
+    {
+      "model": "compact_intraday: access Ridge",
+      "seed42_test_hit_size_rmse": 30.83366095229381
+    },
+    {
+      "model": "compact_intraday: joint Ridge",
+      "seed42_test_hit_size_rmse": 31.434306719219773
+    },
+    {
+      "model": "daily_base: ratio Ridge",
+      "seed42_test_hit_size_rmse": 31.63073897883961
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+model,variable,test_rmse,unit
+Hard Structured: raw ratio,access_count,11949.43322553026,requests
+Hard Structured: raw ratio,access_size,31.14913631763459,TB
+Hard Structured: raw ratio,hit_count,11313.615500030894,requests
+Hard Structured: raw ratio,hit_size,30.557847599131875,TB
+Hard Structured: raw ratio,miss_count,1333.8291363223348,requests
+Hard Structured: raw ratio,miss_size,2.1048098319372315,TB
+Hard Structured: logit ratio,access_count,12759.364601398553,requests
+Hard Structured: logit ratio,access_size,31.924781452206187,TB
+Hard Structured: logit ratio,hit_count,11856.084614343741,requests
+Hard Structured: logit ratio,hit_size,31.497151159928286,TB
+Hard Structured: logit ratio,miss_count,1359.085571637289,requests
+Hard Structured: logit ratio,miss_size,0.6588656971114685,TB
+Soft multi-task: lambda=0,access_count,12413.14809504415,requests
+Soft multi-task: lambda=0,access_size,31.622217362318786,TB
+Soft multi-task: lambda=0,hit_count,11917.567696051537,requests
+Soft multi-task: lambda=0,hit_size,31.61548476786289,TB
+Soft multi-task: lambda=0,miss_count,1116.099503070759,requests
+Soft multi-task: lambda=0,miss_size,0.832482038304143,TB
+Soft multi-task: lambda=0.1,access_count,12412.04527036173,requests
+Soft multi-task: lambda=0.1,access_size,31.625706726135142,TB
+Soft multi-task: lambda=0.1,hit_count,11696.080841842704,requests
+Soft multi-task: lambda=0.1,hit_size,31.191796153267603,TB
+Soft multi-task: lambda=0.1,miss_count,1093.6795113945475,requests
+Soft multi-task: lambda=0.1,miss_size,0.8382308897589646,TB
+Soft multi-task: lambda=1,access_count,13310.486733656444,requests
+Soft multi-task: lambda=1,access_size,31.380662861271123,TB
+Soft multi-task: lambda=1,hit_count,11982.921200384404,requests
+Soft multi-task: lambda=1,hit_size,31.568163661790365,TB
+Soft multi-task: lambda=1,miss_count,1288.454232138989,requests
+Soft multi-task: lambda=1,miss_size,1.1145578356433812,TB
+Soft multi-task: lambda=5,access_count,12640.826932357162,requests
+Soft multi-task: lambda=5,access_size,31.904225308342046,TB
+Soft multi-task: lambda=5,hit_count,11758.995047716693,requests
+Soft multi-task: lambda=5,hit_size,30.658784642775178,TB
+Soft multi-task: lambda=5,miss_count,1128.6235258998238,requests
+Soft multi-task: lambda=5,miss_size,0.9859317554710784,TB

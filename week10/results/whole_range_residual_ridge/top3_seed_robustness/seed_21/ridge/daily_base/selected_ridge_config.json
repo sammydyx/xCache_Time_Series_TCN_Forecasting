@@ -1,0 +1,16 @@
+[
+  {
+    "family": "daily_base",
+    "method": "ratio",
+    "alpha": 100.0,
+    "correction_enabled": true,
+    "calibration_cv_hit_size_rmse": 36.634403059235964
+  },
+  {
+    "family": "daily_base",
+    "method": "direct",
+    "alpha": 100.0,
+    "correction_enabled": true,
+    "calibration_cv_hit_size_rmse": 37.91689751294407
+  }
+]

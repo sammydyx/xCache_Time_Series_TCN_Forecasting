@@ -1,0 +1,37 @@
+calendar_feature_set,variable,test_rmse,unit
+No calendar features,access_count,15799.924120764397,requests
+No calendar features,access_size,40.53495423549103,TB
+No calendar features,hit_count,14847.777690324152,requests
+No calendar features,hit_size,40.03986981415561,TB
+No calendar features,miss_count,1261.513120751925,requests
+No calendar features,miss_size,1.7223115968547908,TB
+Day of week only,access_count,17011.502074019318,requests
+Day of week only,access_size,40.46118361511074,TB
+Day of week only,hit_count,15582.027881882172,requests
+Day of week only,hit_size,40.3060832245884,TB
+Day of week only,miss_count,1922.7126829994704,requests
+Day of week only,miss_size,3.0622067995639823,TB
+Annual seasonality only,access_count,16843.644065143562,requests
+Annual seasonality only,access_size,39.84538608363916,TB
+Annual seasonality only,hit_count,15419.607468785945,requests
+Annual seasonality only,hit_size,38.99326124845584,TB
+Annual seasonality only,miss_count,2070.2291645951027,requests
+Annual seasonality only,miss_size,3.073271142061134,TB
+Day of week + annual seasonality,access_count,15469.627096811846,requests
+Day of week + annual seasonality,access_size,41.38309019457035,TB
+Day of week + annual seasonality,hit_count,14551.913610386839,requests
+Day of week + annual seasonality,hit_size,41.54825139174521,TB
+Day of week + annual seasonality,miss_count,1496.4326135743079,requests
+Day of week + annual seasonality,miss_size,3.1661672563301013,TB
+All calendar features,access_count,16289.618335117424,requests
+All calendar features,access_size,41.066928411348755,TB
+All calendar features,hit_count,15375.46878401811,requests
+All calendar features,hit_size,40.43635960269092,TB
+All calendar features,miss_count,1248.2001672494277,requests
+All calendar features,miss_size,1.5825648539208994,TB
+Weekend only,access_count,18418.899552428244,requests
+Weekend only,access_size,40.19868600843737,TB
+Weekend only,hit_count,17356.009070955828,requests
+Weekend only,hit_size,39.96268549710563,TB
+Weekend only,miss_count,1403.6260179654691,requests
+Weekend only,miss_size,2.1810649964691167,TB

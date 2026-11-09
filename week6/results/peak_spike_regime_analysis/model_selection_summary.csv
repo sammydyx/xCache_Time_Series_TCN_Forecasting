@@ -1,0 +1,10 @@
+experiment,lookback,best_epoch,validation_hit_size_rmse,test_days
+Early in-regime,14,10,4.353442064962063,74
+Early in-regime,56,8,4.332593757445994,74
+Early in-regime,112,11,4.2403974869307985,74
+Transition cross-regime,14,10,4.353442064962063,273
+Transition cross-regime,56,8,4.332593757445994,273
+Transition cross-regime,112,11,4.2403974869307985,273
+Late in-regime,14,2,18.925007930457262,96
+Late in-regime,56,13,19.089889191072068,96
+Late in-regime,112,3,18.771933557900656,96

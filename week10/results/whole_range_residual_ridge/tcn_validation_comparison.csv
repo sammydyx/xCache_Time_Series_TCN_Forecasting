@@ -1,0 +1,3 @@
+family,input_channels,best_epoch,parameter_count,validation_hit_size_rmse
+daily_base,6,7,113092,18.089519936748957
+compact_intraday,12,8,114628,18.576235305674793

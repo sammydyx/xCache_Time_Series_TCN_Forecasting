@@ -1,0 +1,8 @@
+{
+  "family": "daily_base",
+  "method": "direct Ridge",
+  "correction_enabled": true,
+  "calibration_cv_hit_size_rmse": 39.68691436513946,
+  "model": "daily_base: direct Ridge",
+  "test_used_for_selection": false
+}

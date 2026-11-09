@@ -1,0 +1,7 @@
+calendar_feature_set,n_calendar_features,best_epoch,validation_hit_size_rmse
+Day of week + annual seasonality,9,1,18.490621676121947
+Weekend only,1,1,18.681583220905257
+Day of week only,7,1,18.858136669190927
+No calendar features,0,9,18.979438930738254
+All calendar features,10,26,19.174370931125043
+Annual seasonality only,2,4,19.545999025981395

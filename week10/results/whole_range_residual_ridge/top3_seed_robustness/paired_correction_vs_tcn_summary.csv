@@ -1,0 +1,19 @@
+model,variable,median_paired_rmse_change,median_paired_improvement_pct,paired_improvement_q25,paired_improvement_q75,wins,ties,losses,n_seeds
+compact_intraday: access Ridge,access_count,0.0,0.0,0.0,0.0,0,5,0,5
+compact_intraday: access Ridge,access_size,-0.4752781131173691,1.4264130542234486,0.69938706869422,3.634422230194282,4,1,0,5
+compact_intraday: access Ridge,hit_count,0.0,0.0,0.0,0.0,0,5,0,5
+compact_intraday: access Ridge,hit_size,-0.9381346715140637,2.8428394495822236,1.6378190271958386,4.376420689694734,4,1,0,5
+compact_intraday: access Ridge,miss_count,0.0,0.0,0.0,0.0,0,5,0,5
+compact_intraday: access Ridge,miss_size,0.3090806754398554,-9.81260292604069,-11.974737366812088,-0.5435381819779628,0,1,4,5
+compact_intraday: joint Ridge,access_count,0.0,0.0,0.0,0.0,0,5,0,5
+compact_intraday: joint Ridge,access_size,-0.3779779864796353,1.1427956183198569,0.69938706869422,1.4264130542234486,4,1,0,5
+compact_intraday: joint Ridge,hit_count,0.0,0.0,0.0,0.0,0,5,0,5
+compact_intraday: joint Ridge,hit_size,-1.092877495961904,3.402270667015671,1.1027479581778137,3.7238839771918504,4,0,1,5
+compact_intraday: joint Ridge,miss_count,0.0,0.0,0.0,0.0,0,5,0,5
+compact_intraday: joint Ridge,miss_size,-0.3123507674373256,6.565587399287928,-5.8992293168853065,19.49470713091297,3,0,2,5
+daily_base: ratio Ridge,access_count,0.0,0.0,0.0,0.0,0,5,0,5
+daily_base: ratio Ridge,access_size,0.0,0.0,0.0,0.0,0,5,0,5
+daily_base: ratio Ridge,hit_count,0.0,0.0,0.0,0.0,0,5,0,5
+daily_base: ratio Ridge,hit_size,-0.21474428218538932,0.6872310895806304,0.46205762122643146,1.1300669679238897,5,0,0,5
+daily_base: ratio Ridge,miss_count,0.0,0.0,0.0,0.0,0,5,0,5
+daily_base: ratio Ridge,miss_size,-1.928297230209532,70.11323523330792,54.42823437469794,71.0783637446661,5,0,0,5

@@ -1,0 +1,7 @@
+model,channels,best_epoch,validation_hit_size_rmse,variable,test_rmse,persistence_rmse
+Exploratory Structured TCN (14 days),"(64, 64, 64, 64, 64)",14,33.625008876283786,access_count,11949.43322553026,14526.691
+Exploratory Structured TCN (14 days),"(64, 64, 64, 64, 64)",14,33.625008876283786,access_size,31.14913631763459,36.41841
+Exploratory Structured TCN (14 days),"(64, 64, 64, 64, 64)",14,33.625008876283786,hit_count,11313.615500030894,13668.526
+Exploratory Structured TCN (14 days),"(64, 64, 64, 64, 64)",14,33.625008876283786,hit_size,30.557847599131875,35.8518
+Exploratory Structured TCN (14 days),"(64, 64, 64, 64, 64)",14,33.625008876283786,miss_count,1333.8291363223348,1162.6244
+Exploratory Structured TCN (14 days),"(64, 64, 64, 64, 64)",14,33.625008876283786,miss_size,2.1048098319372315,0.8524321

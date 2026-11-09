@@ -1,0 +1,5 @@
+family,method,alpha_access,alpha_ratio,access_enabled,ratio_enabled,calibration_cv_hit_size_rmse
+daily_base,access,100.0,,True,False,40.795406355104184
+daily_base,joint,100.0,100.0,True,True,39.789809645342814
+compact_intraday,access,0.0001,,True,False,39.673937509849154
+compact_intraday,joint,100.0,0.0001,True,True,39.19658691478577

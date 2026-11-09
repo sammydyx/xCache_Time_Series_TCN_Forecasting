@@ -1,0 +1,5 @@
+quantity,error relationship,days,unit,miss MAE,miss RMSE,mean absolute access error,mean absolute hit error
+count,Opposite-sign access/hit errors,1,requests,486.2375729693067,486.2375729693067,388.8251228250847,97.41245014422202
+count,Same-sign or zero access/hit errors,95,requests,865.0865291707985,1267.1536565748322,9577.337079273733,8861.406367841926
+size,Opposite-sign access/hit errors,3,TB,1.6562450133724604,1.721034996102895,0.5026285355037116,1.1536155345354153
+size,Same-sign or zero access/hit errors,93,TB,1.5273793668343845,1.722352764095733,21.329406896262586,20.696648726545952

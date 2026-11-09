@@ -1,0 +1,20 @@
+[
+  {
+    "family": "compact_intraday",
+    "method": "access",
+    "alpha_access": 100.0,
+    "alpha_ratio": null,
+    "access_enabled": true,
+    "ratio_enabled": false,
+    "calibration_cv_hit_size_rmse": 41.43616773106568
+  },
+  {
+    "family": "compact_intraday",
+    "method": "joint",
+    "alpha_access": 100.0,
+    "alpha_ratio": 0.0001,
+    "access_enabled": true,
+    "ratio_enabled": true,
+    "calibration_cv_hit_size_rmse": 39.13243101297802
+  }
+]
