@@ -2,6 +2,34 @@
 
 Research notebooks for forecasting regional scientific-data cache traffic with Temporal Convolutional Networks (TCNs). The main task is **one-day-ahead forecasting of six SoCal XCache traffic variables**, with experiments on physical consistency, traffic regime changes, extreme events, intraday features, and residual Ridge correction.
 
+## Project background and motivation
+
+### SoCal XCache and scientific computing
+
+The **Southern California XCache infrastructure**, also known as the **CMS SoCal cache**, is a regional caching system that supports scientific data analysis for the U.S. CMS community. CMS, the Compact Muon Solenoid experiment, operates at CERN's Large Hadron Collider (LHC). Its researchers analyze collision data using computing resources distributed across institutions and countries. The SoCal cache helps make those datasets accessible to researchers at regional computing sites. [ESnet's account of the in-network caching project](https://www.es.net/news-and-publications/esnet-news/2021/berkeley-lab-and-esnet-pioneer-in-network-caching-model/) describes its connection to LHC computing.
+
+The UC San Diego (UCSD) and Caltech CMS Tier-2 computing centers joined their resources to create and maintain the regional cache. A collaboration with the **Energy Sciences Network (ESnet)** subsequently extended the system with a caching server at ESnet's Sunnyvale point of presence. This connects cache resources across San Diego, Pasadena, and Sunnyvale. The institutional roles are described in [IRIS-HEP's overview of caching for LHC analysis](https://iris-hep.org/projects/caching.html). ESnet is funded by the **U.S. Department of Energy (DOE) Office of Science** and stewarded by Lawrence Berkeley National Laboratory; see [About ESnet](https://www.es.net/about/).
+
+### Why large scientific workflows need regional caches
+
+Large scientific experiments and simulations produce substantial datasets that must move between storage systems, analysis facilities, and researchers. Many analysis jobs run concurrently, and different jobs often read the same data repeatedly. Reuse can occur within one researcher's workflow, across users at the same institution, or across institutions in a region.
+
+Without a nearby reusable copy, repeated reads can trigger repeated long-distance transfers. This consumes wide-area network bandwidth and introduces delays while analysis jobs wait for data. As documented by [IRIS-HEP](https://iris-hep.org/projects/caching.html), repeated processing of shared LHC datasets makes regional caching useful for reducing network traffic and improving access times.
+
+A regional cache stores data closer to the computing resources that use it. When requested content is already available, a **cache hit** serves it from the cache. A **cache miss** requires obtaining the missing content from an upstream source, after which it may be retained for subsequent requests. This lets later users share a nearby copy instead of repeating the same remote transfer. [ESnet's project description](https://www.es.net/news-and-publications/esnet-news/2021/berkeley-lab-and-esnet-pioneer-in-network-caching-model/) explains this request-and-reuse mechanism.
+
+### Why forecast cache traffic?
+
+Caching reduces redundant transfers, but the workload still changes over time. Requested data volume, request frequency, and the balance between hits and misses can vary as scientific workflows and dataset interests change. Historical measurements can reveal recurring patterns, sustained shifts in activity, and unusually high-demand days.
+
+Our motivation is to investigate whether forecasts of these measurements could eventually help operators anticipate demand. Potential uses include planning network and storage capacity, allocating computing resources, and informing future studies of cache sizing, placement, and traffic management. These are prospective applications of the research; the experiments in this repository evaluate forecasting accuracy and consistency rather than operational improvements from a deployed caching policy.
+
+### What this project investigates
+
+This research analyzes the historical utilization of the SoCal XCache infrastructure and predicts its next-day traffic. It models both **request counts** and **data volumes**, separating total accesses into cache hits and misses. This distinction matters because the number of requests and the amount of transferred data describe different aspects of demand.
+
+The main questions are whether a TCN can improve on a simple persistence forecast, whether enforcing the access-hit-miss relationship produces useful and physically consistent predictions, and how well models handle traffic regime changes, peaks, and sudden spikes. Later experiments test whether causal trend features, completed-day hourly summaries, and residual Ridge models provide additional predictive information. The longer-term objective is to build evidence that can inform more efficient caching and resource planning.
+
 The central constraint is:
 
 ```text
